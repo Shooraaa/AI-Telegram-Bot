@@ -43,7 +43,7 @@ client = Groq(
 # Start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🤖 AI Bot Active\n\nMujhe koi bhi question bhejo."
+        "✨ Welcome to AiBuddy Bot 🚀"
     )
 
 # Reply system
